@@ -18,7 +18,7 @@ files:
     cardinality: one-to-many
     source_program_elements: [function call]
     target_program_elements: [function call, function call]
-    properties: [argument deletion, element name change]
+    properties: [argument deletion, element name change, argument transformation, async transformation]
     source_apis: [request]
     target_apis: [get, AsyncClient]
   - line: "37:44-45"
