@@ -53,7 +53,7 @@ files:
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument transformation, element name change, parameter addition to decorated function]
+    properties: [argument transformation, element name change, parameter addition to decorated function, argument addition, argument deletion]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "285-289:42-46"
