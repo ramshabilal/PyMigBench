@@ -25,35 +25,35 @@ files:
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function]
+    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function, argument transformation]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "37:36"
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function]
+    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function, argument transformation]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "38:37"
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function]
+    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function, argument transformation]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "39:38"
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function]
+    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function, argument transformation]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "40:39"
     cardinality: one-to-one
     source_program_elements: [function call]
     target_program_elements: [decorator]
-    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function]
+    properties: [argument addition, argument deletion, element name change, parameter addition to decorated function, argument name change]
     source_apis: [add_argument]
     target_apis: [option]
   - line: "41:40"
@@ -81,7 +81,7 @@ files:
     cardinality: zero-to-one
     source_program_elements: []
     target_program_elements: [decorator]
-    properties: []
+    properties: [parameter addition to decorated function]
     source_apis: []
     target_apis: [command]
 - path: "mlflow_tools/export_import/copy_run.py"
